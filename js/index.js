@@ -25,7 +25,7 @@ $('#items').on('click', (e) => {
 // ARCHIVO JSON
 const fetchData = async () => {
     try {
-        const res = await fetch('https://raw.githubusercontent.com/ivinapoli/UnMundoViajesJQ/proyectoFinal/js/productos.json')
+        const res = await fetch('https://raw.githubusercontent.com/ivinapoli/UnMundoViajesInteractivo/proyectoFinal/js/productos.json')
         const data = await res.json()
         asignarCards(data)
     } catch (error) {
