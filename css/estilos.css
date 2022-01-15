@@ -1,0 +1,1176 @@
+/*.-------------------------------------------.*/
+/*.---------------- INDEX HTML ---------------.*/
+/*.-------------------------------------------.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+body{
+    font-family: 'Francois One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/*.--------- INDEX HTML (BACKGROUNDS) --------.*/
+
+.fondoBlancoDiseño{
+    background-image: url("../multimedia/white_wall.png");
+}
+
+.sectionBackground{
+    background-image: url("../multimedia/ep_naturalwhite.png");
+}
+
+.fondoFooterGris{
+    background-color: rgb(117, 117, 117);
+}
+
+.header{
+    background-color: #ff6d6d;
+}
+
+/*.----- INDEX HTML (MENÚ DE NAVEGACIÓN) -----.*/
+
+.header__logo{
+    width: 15rem;
+    margin: 1rem 5rem 1rem 5rem;
+}
+
+.menuPrincipal{
+    text-align: center;
+    list-style: none;
+    padding-left: 80rem;
+}
+
+.menuPrincipal li{
+    display: inline-block;
+    position: relative;
+    font-size: 3rem;
+    padding: 2rem 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.navText{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*.------------ INDEX HTML (MAIN) ------------.*/
+
+.mainFlexPadre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+h1{
+    color: rgb(54, 54, 54);
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 4rem;
+    font-family: 'Bevan';
+}
+
+.mainTitulo{
+    padding-bottom: 2rem;
+}
+
+.mainTexto{
+    margin: 2rem 0rem;
+    width: 120rem;
+    display: inline-block;
+}
+
+.mainParrafoUno{
+    color: rgb(54, 54, 54);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.mainParrafoDos{
+    color: rgb(54, 54, 54);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+}
+
+.mainParrafoTres{
+    color: #ff6d6d;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 2.7rem;
+    margin-top: 2rem;
+}
+
+.mainCarousel{
+    margin: 9rem 2rem 9rem 0rem;
+    border-radius: 2rem;
+    border-bottom: 0.8rem;
+    border-right: 0.8rem;
+    border-bottom-style: groove;
+    border-right-style: groove;
+    text-align: center;
+}
+
+/*.----------- INDEX HTML (SECTION) ----------.*/
+
+h2{
+    color: rgb(54, 54, 54);
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Bevan';
+    letter-spacing: 0.3rem;
+    font-size: 3.8rem;
+    padding: 6rem 1rem;
+}
+
+.sectionPaisesTitulo{
+    color: #ff6d6d;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-size: 2.7rem;
+    margin: 1rem 0rem 10rem 0rem;
+}
+
+.sectionPaises{
+    border-radius: 2rem;
+    border-bottom: 0.8rem;
+    border-right: 0.8rem;
+    border-bottom-style: groove;
+    border-right-style: groove;
+    text-align: center;
+    display:block;
+    margin:auto;
+}
+
+/*.----------- INDEX HTML (FOOTER) -----------.*/
+
+.footerHijo__correo{
+    font-weight: bold;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    color: rgb(255, 255, 255);
+}
+
+.footerHijo__correoInput{
+    font-weight: bold;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+
+.footerHijo__parrafo{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 1.8rem;
+}
+
+.redesSociales{
+    width: 4rem;
+    margin: 0rem 0.5rem;
+}
+
+.footerPadre{
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerHijoPrimero{
+    order: -1;
+}
+
+
+
+
+/*.-------------------------------------------.*/
+/*.-------------- DESTINOS HTML --------------.*/
+/*.-------------------------------------------.*/
+
+.imagenesDestinos{
+    padding: 0.8rem 0.8rem 0rem 0.8rem;
+    height: 30rem;
+    display:block;
+    margin:auto;
+    border-radius: 2rem;
+}
+
+.cardDestinos{
+    border-radius: 2rem;
+    border-bottom: 0.8rem;
+    border-right: 0.8rem;
+    border-bottom-style: groove;
+    border-right-style: groove;
+}
+
+.cardDestinos:hover{
+    transform: translate(1rem, 1rem);
+}
+
+.imagenesTitulo{
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #ff6d6d;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.imagenesParrafo{
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.tituloH1{
+    padding: 7rem 0rem 6rem 0rem;
+}
+
+.flexboxDestinos{
+    height: 200rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8rem;
+}
+
+.flexboxDestinosHijo{
+    width: 60rem;
+    height: 40rem;
+    margin: 2rem;
+}
+
+
+
+
+/*.-------------------------------------------.*/
+/*.-------------- SERVICIOS HTML -------------.*/
+/*.-------------------------------------------.*/
+#tituloServicios{
+    padding: 0rem 0rem 6rem 0rem;
+}
+
+.descripcionesCard{
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.imagenesCard{
+    height: 25rem;
+    display:block;
+    margin:auto;
+    border-radius: 2rem;
+    padding: 0.8rem 0.8rem 0rem 0.8rem;
+}
+
+.flexboxServicios{
+    height: 235rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardServicios{
+    border-radius: 2rem;
+    border-bottom: 0.6rem;
+    border-right: 0.6rem;
+    border-bottom-style: groove;
+    border-right-style: groove;
+    margin: 1.4rem;
+    height: 33rem;
+}
+
+.imgServicios{
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    height: 25rem;
+    display:block;
+    margin:auto;
+    border-radius: 2rem;
+}
+
+.imagenesTituloServicios{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0.1rem;
+}
+
+.imagenesParrafoServicios{
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    display: inline-block;
+}
+
+.usdServicios{
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    display: inline-block;
+    margin-right: 0.8rem;
+}
+
+.imagenesBotonServicios{
+    color: rgb(54, 54, 54);
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.carritoEstilo{
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.carritoEstiloDos{
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.carritoVaciar{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+}
+
+.carritoVaciarDos{
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.8rem;
+}
+/*.-------------------------------------------.*/
+/*.-------------- NOSOTROS HTML --------------.*/
+/*.-------------------------------------------.*/
+
+.nosotrosImagen{
+    width: 45rem;
+    height: 60rem;
+    border-radius: 2rem;
+    border-bottom: 0.8rem;
+    border-right: 0.8rem;
+    border-bottom-style: groove;
+    border-right-style: groove;
+    text-align: center;
+    display:block;
+    margin:auto;
+}
+
+.parrafosNosotros{
+    color: rgb(54, 54, 54);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.titulosNosotros{
+    color: #ff6d6d;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 2.4rem;
+    padding: 1.5rem 0rem 0rem 0rem;
+}
+
+.flexboxNosotros{
+    height: 80rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+
+.flexboxNosotrosHijo{
+    width: 60rem;
+    height: 60rem;
+    margin: 2rem;
+}
+
+.flexboxNosotrosHijoImagen{
+    width: 48rem;
+    height: 60rem;
+    margin: 2rem;
+}
+
+
+
+
+/*.-------------------------------------------.*/
+/*.-------------- CONTACTO HTML --------------.*/
+/*.-------------------------------------------.*/
+
+.footerContactoPadre{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.footerContactoHijo{
+    width: 80rem;
+    height: 70rem;
+    margin: 3rem 0rem;
+}
+
+.formularioCajas{
+    font-size: 2.1rem;
+    letter-spacing: 0.1rem;
+}
+
+
+
+
+/*.-------------------------------------------.*/
+/*.-------------- MEDIA QUERIES --------------.*/
+/*.-------------------------------------------.*/
+
+
+/*.---------- MEDIA QUERIES (INDEX) ----------.*/
+
+@media (max-width: 1880px) {
+    .menuPrincipal{
+        padding-left: 65rem;
+    }
+}
+
+@media (max-width: 1730px) {
+    .menuPrincipal{
+        padding-left: 50rem;
+    }
+    h1{
+        font-size: 3.7rem;
+    }
+    h2{
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1580px) {
+    .menuPrincipal{
+        padding-left: 40rem;
+    }
+}
+
+@media (max-width: 1484px) {
+    .menuPrincipal{
+        padding-left: 30rem;
+    }
+    h1{
+        font-size: 3.3rem;
+    }
+    h2{
+        font-size: 3.1rem;
+    }
+    .mainTitulo{
+        padding-bottom: 1rem;
+    }
+    .mainParrafoUno{
+        margin-bottom: 1.2rem;
+    }
+    .mainParrafoTres{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1380px) {
+    .menuPrincipal{
+        padding-left: 20rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.9rem;
+    }
+    .mainTitulo{
+        padding-bottom: 0rem;
+    }
+    .mainParrafoUno{
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+    .mainParrafoDos{
+        font-size: 2.3rem;
+    }
+    .mainParrafoTres{
+        font-size: 2.4rem;
+        margin-top: 1rem;
+    }
+    .mainCarousel{
+        margin: 8rem 2rem 8rem 0rem;
+    }
+    .sectionPaisesTitulo{
+        font-size: 2.5rem;
+        margin: 1rem 0rem 8rem 0rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .header__logo{
+        width: 12rem;
+    }
+    .menuPrincipal{
+        padding-left: 27rem;
+    }
+    .menuPrincipal li{
+        font-size: 2.5rem;
+        padding: 1.5rem 1rem;
+    }
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 2.8rem;
+        padding: 5rem 1rem;
+    }
+    .mainParrafoUno{
+        font-size: 2.1rem;
+        margin-bottom: 1rem;
+    }
+    .mainParrafoDos{
+        font-size: 2.1rem;
+    }
+    .mainParrafoTres{
+        font-size: 2.3rem;
+    }
+    .mainCarousel{
+        margin: 8rem 2rem 8rem 0rem;
+    }
+    .sectionPaisesTitulo{
+        font-size: 2.4rem;
+        margin: 1rem 0rem 6rem 0rem;
+    }
+}
+
+@media (max-width: 1180px) {
+    .menuPrincipal{
+        padding-left: 18rem;
+    }
+}
+
+@media (max-width: 1124px) {
+    .header__logo{
+        width: 11rem;
+    }
+    .menuPrincipal li{
+        font-size: 2.2rem;
+    }
+    h1{
+        font-size: 2.6rem;
+    }
+    h2{
+        font-size: 2.5rem;
+        padding: 5rem 1rem;
+    }
+    .mainParrafoUno{
+        font-size: 2rem;
+    }
+    .mainParrafoDos{
+        display: none;
+    }
+    .mainParrafoTres{
+        font-size: 2.2rem;
+    }
+    .mainCarousel{
+        margin: 7rem 2rem 7rem 0rem;
+    }
+    .sectionPaisesTitulo{
+        font-size: 2.2rem;
+    }
+    .footerHijo__correo{
+        font-size: 1.5rem;
+    }
+    .footerHijo__parrafo{
+        font-size: 1.5rem;
+    }
+    .redesSociales{
+        width: 3rem;
+    }
+}
+
+@media (max-width: 1020px){
+    .menuPrincipal{
+        padding-left: 11rem;
+    }
+    .header__logo{
+        width: 10rem;
+        margin-left: 3rem;
+    }
+    .menuPrincipal li{
+        font-size: 2.1rem;
+    }
+    h1{
+        font-size: 2.3rem;
+    }
+    h2{
+        font-size: 2.2rem;
+    }
+    .mainParrafoUno{
+        font-size: 1.8rem;
+    }
+    .mainParrafoTres{
+        font-size: 1.9rem;
+    }
+    .sectionPaisesTitulo{
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width: 894px) {
+    .menuPrincipal{
+        padding-left: 9rem;
+    }
+    .header__logo{
+        margin-left: 2rem;
+    }
+    .menuPrincipal li{
+        font-size: 1.9rem;
+    }
+    .mainParrafoUno{
+        font-size: 1.6rem;
+    }
+    .mainParrafoTres{
+        font-size: 1.7rem;
+    }
+    .sectionPaisesTitulo{
+        font-size: 1.7rem;
+    }
+    .footerHijo__correo{
+        font-size: 1.2rem;
+    }
+    .footerHijo__correoInput{
+        font-size: 1.1rem;
+    }
+    .footerHijo__parrafo{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 820px) {
+    .menuPrincipal{
+        padding-left: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .menuPrincipal{
+        padding-left: 0rem;
+    }
+    .header__logo{
+        margin-left: 1rem;
+        margin-right: 4rem;
+    }
+    .menuPrincipal li{
+        font-size: 1.9rem;
+    }
+    h1{
+        font-size: 2.4rem;
+        padding-top: 4rem;
+    }
+    h2{
+        font-size: 2.3rem;
+    }
+    .mainCarousel{
+        margin: 2rem 2rem 7rem 0rem;
+    }
+    .mainTitulo{
+        padding-bottom: 2rem;
+    }
+    .mainParrafoUno{
+        font-size: 1.8rem;
+    }
+    .mainParrafoDos{
+        display: inherit;
+        font-size: 1.8rem;
+    }
+    .mainParrafoTres{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .sectionPaisesTitulo{
+        font-size: 2.2rem;
+        margin-bottom: 9rem;
+    }
+    .footerHijo__correo{
+        font-size: 1.1rem;
+    }
+    .footerHijo__correoInput{
+        font-size: 1.1rem;
+    }
+    .footerHijo__parrafo{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 715px) {
+    .header__logo{
+        width: 9rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+    .menuPrincipal li{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 645px) {
+    .header__logo{
+        width: 8rem;
+        margin-left: 1rem;
+        margin-right: 3rem;
+    }
+    .menuPrincipal li{
+        font-size: 1.6rem;
+        padding: 2rem 0.4rem;
+    }
+}
+
+@media (max-width: 492px) {
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .mainParrafoUno{
+        font-size: 1.7rem;
+    }
+    .mainParrafoDos{
+        display: inherit;
+        font-size: 1.7rem;
+    }
+    .mainParrafoTres{
+        font-size: 1.8rem;
+    }
+    .sectionPaisesTitulo{
+        font-size: 1.9rem;
+    }
+    .footerHijo__correo{
+        font-size: 1rem;
+    }
+    .footerHijo__correoInput{
+        font-size: 1rem;
+    }
+    .footerHijo__parrafo{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 382px) {
+    h1{
+        font-size: 1.8rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    .mainParrafoUno{
+        font-size: 1.6rem;
+    }
+    .mainParrafoDos{
+        display: inherit;
+        font-size: 1.6rem;
+    }
+    .mainParrafoTres{
+        font-size: 1.6rem;
+    }
+    .sectionPaisesTitulo{
+        font-size: 1.7rem;
+        margin-bottom: 6rem;
+    }
+    .footerHijo__correo{
+        font-size: 1rem;
+    }
+    .footerHijo__correoInput{
+        font-size: 1rem;
+    }
+    .footerHijo__parrafo{
+        font-size: 1rem;
+    }
+}
+
+
+/*.-------- MEDIA QUERIES (DESTINOS) ---------.*/
+
+@media (max-width: 1294px) {
+    .flexboxDestinos{
+        height: 360rem;
+    }
+}
+
+@media (max-width: 1020px) {
+    .imagenesTitulo{
+        font-size: 2rem;
+    }
+    .tituloH1{
+        padding: 7rem 0rem 4rem 0rem;
+    }
+}
+
+@media (max-width: 894px) {
+    .imagenesTitulo{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .cardDestinos:hover{
+        transform: translate(0rem, 0rem);
+    }
+}
+
+@media (max-width: 654px) {
+    .imagenesTitulo{
+        font-size: 1.5rem;
+    }
+    .imagenesParrafo{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 510px) {
+    .imagenesDestinos{
+        height: 22rem;
+    }
+    .cardDestinos{
+        height: 34rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .imagenesDestinos{
+        height: 18rem;
+    }
+    .imagenesParrafo{
+        display: none;
+    }
+    .imagenesTitulo{
+        font-size: 1.8rem;
+        padding-top: 0.1rem;
+    }
+    .cardDestinos{
+        height: 23rem;
+    }
+    .flexboxDestinos{
+        height: 250rem;
+        padding-bottom: 6rem;
+    }
+}
+
+@media (max-width: 374px) {
+    .imagenesTitulo{
+        font-size: 1.6rem;
+    }
+    .cardDestinos{
+        height: 22rem;
+    }
+}
+
+
+/*.-------- MEDIA QUERIES (SERVICIOS) --------.*/
+
+
+
+@media (max-width: 994px) {
+    .flexboxServicios{
+        height: 230rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .movimiento:hover{
+        transform: translate(0rem, 0rem);
+    }
+}
+
+@media (max-width: 500px) {
+    .descripcionesCard{
+        font-size: 1.3rem;
+    }
+    .imagenesCard{
+        height: 20rem;
+    }
+    .movimiento{
+        height: 28rem;
+    }
+    .flexboxServicios{
+        height: 215rem;
+        margin-bottom: 6rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .descripcionesCard{
+        font-size: 1.1rem;
+    }
+    .imagenesCard{
+        height: 17rem;
+    }
+    .movimiento{
+        height: 24rem;
+    }
+    .flexboxServicios{
+        height: 195rem;
+    }
+}
+
+
+/*.--------- MEDIA QUERIES (NOSOTROS) --------.*/
+
+@media (max-width: 1134px) {
+    .nosotrosImagen{
+        width: 36rem;
+        height: 48rem;
+    }
+    .parrafosNosotros{
+        font-size: 1.9rem;
+    }
+    .titulosNosotros{
+        font-size: 1.9rem;
+        padding-top: 4rem;
+    }
+    .nosotrosNone{
+        display: none;
+    }
+    .flexboxNosotros{
+        height: 65rem;
+        padding-bottom: 7rem;
+    }
+    .flexboxNosotrosHijo{
+        width: 48rem;
+        height: 48rem;
+        margin: 1rem;
+    }
+    
+    .flexboxNosotrosHijoImagen{
+        width: 39rem;
+        height: 50rem;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .nosotrosImagen{
+        width: 29rem;
+        height: 38rem;
+    }
+    .parrafosNosotros{
+        font-size: 1.7rem;
+    }
+    .titulosNosotros{
+        font-size: 1.7rem;
+        padding-top: 1rem;
+    }
+    .flexboxNosotros{
+        height: 51rem;
+        padding-bottom: 2rem;
+    }
+    .flexboxNosotrosHijo{
+        width: 38rem;
+        height: 38rem;
+    }
+    
+    .flexboxNosotrosHijoImagen{
+        width: 31rem;
+        height: 40rem;
+    }
+}
+
+@media (max-width: 744px) {
+    .nosotrosImagen{
+        display: none;
+    }
+    .parrafosNosotros{
+        font-size: 2rem;
+    }
+    .titulosNosotros{
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+    .nosotrosNone{
+        display: inherit;
+    }
+    .flexboxNosotros{
+        height: 68rem;
+        padding-bottom: 6rem;
+    }
+    .flexboxNosotrosHijo{
+        width: 60rem;
+        height: 60rem;
+        margin: 1rem;
+    }
+    .flexboxNosotrosHijoImagen{
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+    .parrafosNosotros{
+        font-size: 1.8rem;
+    }
+    .titulosNosotros{
+        font-size: 1.8rem;
+        padding-top: 1rem;
+    }
+    .flexboxNosotros{
+        height: 60rem;
+    }
+}
+
+@media (max-width: 485px) {
+    .parrafosNosotros{
+        font-size: 1.6rem;
+    }
+    .titulosNosotros{
+        font-size: 1.6rem;
+    }
+    .flexboxNosotros{
+        height: 59rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .nosotrosNone{
+        display: none;
+    }
+    .flexboxNosotros{
+        height: 43rem;
+    }
+}
+
+@media (max-width: 384px) {
+    .parrafosNosotros{
+        font-size: 1.5rem;
+    }
+    .titulosNosotros{
+        font-size: 1.5rem;
+        padding-top: 0rem;
+    }
+    .flexboxNosotros{
+        height: 43rem;
+    }
+}
+
+
+/*.--------- MEDIA QUERIES (CONTACTO) --------.*/
+
+@media (max-width: 1280px) {
+    .footerContactoHijo{
+        width: 75rem;
+        height: 65rem;
+        margin: 3rem 0rem;
+    }
+    
+    .formularioCajas{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 1020px) {
+    .footerContactoHijo{
+        width: 60rem;
+        height: 60rem;
+        margin: 3rem 0rem;
+    }
+    
+    .formularioCajas{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footerContactoHijo{
+        width: 47rem;
+        height: 53rem;
+        margin: 3rem 0rem;
+    }
+    
+    .formularioCajas{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .footerContactoHijo{
+        width: 40rem;
+        height: 49rem;
+        margin-bottom: 3rem;
+    }
+    
+    .formularioCajas{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .footerContactoHijo{
+        width: 33rem;
+        height: 46rem;
+        margin-bottom: 3rem;
+    }
+    
+    .formularioCajas{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .footerContactoHijo{
+        width: 28rem;
+        height: 44rem;
+        margin-bottom: 3rem;
+    }
+    
+    .formularioCajas{
+        font-size: 1.2rem;
+    }
+}
+
+/*.-------------------------------------------.*/
+/*.-------------------------------------------.*/

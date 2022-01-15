@@ -1,0 +1,92 @@
+[
+    {
+        "price": 20,
+        "id": 1,
+        "title": "Visa de Turista",
+        "img": "../multimedia/uno.jpg"
+    },
+    {
+        "price": 350,
+        "id": 2,
+        "title": "Visa de Trabajo",
+        "img": "../multimedia/dos.jpg"
+    },
+    {
+        "price": 300,
+        "id": 3,
+        "title": "Visa de Estudiante",
+        "img": "../multimedia/tres.jpg"
+    },
+    {
+        "price": 100,
+        "id": 4,
+        "title": "Seguro de Viaje 125 - Básico",
+        "img": "../multimedia/cuatro.jpeg"
+    },
+    {
+        "price": 150,
+        "id": 5,
+        "title": "Seguro de Viaje 225 - Intermedio",
+        "img": "../multimedia/cinco.jpg"
+    },
+    {
+        "price": 185,
+        "id": 6,
+        "title": "Seguro de Viaje 325 - Premium",
+        "img": "../multimedia/seis.jpg"
+    },
+    {
+        "price": 15,
+        "id": 7,
+        "title": "Guía Turístico Grupal",
+        "img": "../multimedia/siete.jpg"
+    },
+    {
+        "price": 25,
+        "id": 8,
+        "title": "Guía Turístico Individual",
+        "img": "../multimedia/ocho.jpg"
+    },
+    {
+        "price": 45,
+        "id": 9,
+        "title": "Guía Turístico Individual Personalizado",
+        "img": "../multimedia/nueve.jpg"
+    },
+    {
+        "price": 20,
+        "id": 10,
+        "title": "Asesoramiento General",
+        "img": "../multimedia/once.jpg"
+    },
+    {
+        "price": 30,
+        "id": 11,
+        "title": "Asesoramiento Profesional Grupal",
+        "img": "../multimedia/diez.jpg"
+    },
+    {
+        "price": 40,
+        "id": 12,
+        "title": "Asesoramiento Profesional Personalizado",
+        "img": "../multimedia/doce.jpg"
+    },
+    {
+        "price": 50,
+        "id": 13,
+        "title": "Programa de Excursiones Básicas Grupales",
+        "img": "../multimedia/trece.jpg"
+    },
+    {
+        "price": 70,
+        "id": 14,
+        "title": "Programa de Excursiones Principales",
+        "img": "../multimedia/catorce.jpg"
+    },
+    {
+        "price": 95,
+        "id": 15,
+        "title": "Programa de Excursiones Personalizadas",
+        "img": "../multimedia/quince.jpg"
+    }
+]

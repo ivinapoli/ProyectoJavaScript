@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un Mundo Viajes - Conoce nuevos horizontes</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+    <link rel="icon" href="multimedia/logoo.ico">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+
+    <!-- SEO -->
+    <meta name="keywords" content="viajes, países, ciudades, destinos turísticos, visas, viajeros">
+    <meta name="description" content="Viajá por todo el mundo y conocé las ciudades más increíbles junto a tu agencia de
+        viajes preferida y con mayor experiencia en el mercado! Un Mundo Viajes.">
+</head>
+
+<body class="container-fluid">
+    <header class="row header">
+        <!-- MENÚ DE NAVEGACIÓN/LOGO -->
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <img src="multimedia/logo.png" class="header__logo" alt="Logo">
+
+            <div class="collapse navbar-collapse menuPrincipal" id="opciones">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link navText text-light" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText text-light" href="pages/destinos.html">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText text-light" href="pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText text-light" href="pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText text-light" href="pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="row fondoBlancoDiseño">
+        <div class="mainFlexPadre">
+            <div class="col-sm-12 col-md-8 mainTexto">
+                <h1 class="mainTitulo">¡Con nosotros el viaje de tus sueños se vuelve realidad!</h1>
+                <p class="mainParrafoUno">Elegí tu próximo destino y dejá que nuestro equipo de profesionales
+                    se encargue de planificar y organizar de la mejor manera tu viaje.</p>
+                <p class="mainParrafoDos">Contamos con diferentes tipos de visado, seguros y asistencia médica,
+                    guías turísticos, programas de excursiones perzonalizadas y mucho más..</p>
+                <p class="mainParrafoTres">¡Animate a vivir una experiencia increíble!</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <!-- CAROUSEL -->
+                <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="multimedia/viajerosSeis.jpg" class="d-block w-100 mainCarousel" alt="viajeros">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="multimedia/viajerosCuatro.jpg" class="d-block w-100 mainCarousel" alt="viajeros">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="multimedia/viajerosCinco.jpg" class="d-block w-100 mainCarousel" alt="viajeros">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="row sectionBackground">
+        <div class="row">
+            <h2>Conocé nuestros principales destinos</h2>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <img src="multimedia/francia.jpg" alt="francia" class="sectionPaises img-fluid">
+            <h3 class="sectionPaisesTitulo">Francia</h3>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <img src="multimedia/italia.jpg" alt="italia" class="sectionPaises img-fluid">
+            <h3 class="sectionPaisesTitulo">Italia</h3>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <img src="multimedia/españa.jpg" alt="españa" class="sectionPaises img-fluid">
+            <h3 class="sectionPaisesTitulo">España</h3>
+        </div>
+    </section>
+
+    <footer class="row fondoFooterGris">
+        <div class="footerPadre text-center">
+            <div class="col-md-6 footerHijo">
+                <h4 class="footerHijo__parrafo">Deja tu correo para recibir las últimas novedades.</h4>
+                <form action="">
+                    <label class="footerHijo__correo" for="correo">Correo:</label>
+                    <input class="footerHijo__correoInput" type="email" placeholder="Ingrese su correo" name="correo">
+                    <input type="reset">
+                    <input type="submit">
+                </form>
+            </div>
+            <div class="col-md-6 footerHijo footerHijoPrimero">
+                <p class="footerHijo__parrafo">Copyright. Todos los derechos reservados.</p>
+                <img src="multimedia/facebook.png" alt="facebook" class="redesSociales">
+                <img src="multimedia/twitter.png" alt="twitter" class="redesSociales">
+                <img src="multimedia/instagram.png" alt="instagram" class="redesSociales">
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOOTSTRAP/JS SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
+        integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

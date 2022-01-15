@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un Mundo Viajes - Nuestros servicios</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+    <link rel="icon" href="../multimedia/logoo.ico">
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+
+    <!-- SEO -->
+    <meta name="keywords" content="viajes, países, ciudades, destinos turísticos, visas, servicios">
+    <meta name="description" content="Diferentes tipos de visado, seguro médico, los mejores guías turísticos, programas
+        de excursiones personalizadas y mucho más!  Un Mundo Viajes.">
+</head>
+
+<body class="container-fluid">
+    <header class="row header"> <!-- MENÚ DE NAVEGACIÓN/LOGO -->
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <img src="../multimedia/logo.png" class="header__logo" alt="Logo">
+
+            <div class="collapse navbar-collapse menuPrincipal" id="opciones">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link navText text-light" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText text-light" href="destinos.html">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText text-light" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText text-light" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText text-light" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="fondoBlancoDiseño flexboxServicios">
+        <div class="container">
+            <h1 class="tituloH1" id="tituloServicios">Nuestros servicios al viajero</h1>
+            <hr>
+            <table class="table carritoEstilo">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Item</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Acción</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody id="items"></tbody>
+                <tfoot>
+                    <div id="confirmarr" class="text-center"></div>
+                    <tr id="footer">
+                        <th scope="row" colspan="5">Carrito vacío. Seleccione alguno de nuestros servicios!</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="row" id="cards"></div>
+        </div>
+
+        <template id="template-footer">
+            <th scope="row" colspan="2">Total productos</th>
+            <td>10</td>
+            <td>
+                <button class="btn btn-danger btn-sm carritoVaciar" id="vaciar-carrito">
+                    vaciar todo
+                </button>
+            </td>
+            <td class="font-weight-bold">$ <span>5000</span></td>
+        </template>
+    
+        <template id="template-carrito">
+            <tr>
+                <th scope="row">id</th>
+                <td>Café</td>
+                <td>1</td>
+                <td>
+                    <button class="btn btn-info btn-md carritoVaciar">
+                        +
+                    </button>
+                    <button class="btn btn-danger btn-md carritoVaciar">
+                        -
+                    </button>
+                </td>
+                <td>$ <span>500</span></td>
+            </tr>
+        </template>
+
+        <template id="template-card">
+            <div class="col-12 mb-2 col-md-4">
+                <div class="card cardServicios">
+                    <img src="" alt="" class="card-img-top imgServicios">
+                    <div class="card-body">
+                        <h5 class="imagenesTituloServicios">Titulo</h5>
+                        <p class="imagenesParrafoServicios">price</p>
+                        <p class="usdServicios">USD</p>
+                        <button class="btn btn-info imagenesBotonServicios">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </main>
+    
+    <footer class="row fondoFooterGris">
+        <div class="footerPadre text-center">
+            <div class="col-md-6 footerHijo">
+                <h4 class="footerHijo__parrafo">Deja tu correo para recibir las últimas novedades.</h4>
+                <form action="">
+                    <label class="footerHijo__correo" for="correo">Correo:</label>
+                    <input class="footerHijo__correoInput" type="email" placeholder="Ingrese su correo" name="correo">
+                    <input type="reset">
+                    <input type="submit">
+                </form>
+            </div>
+            <div class="col-md-6 footerHijo footerHijoPrimero">
+                <p class="footerHijo__parrafo">Copyright. Todos los derechos reservados.</p>
+                <img src="../multimedia/facebook.png" alt="facebook" class="redesSociales">
+                <img src="../multimedia/twitter.png" alt="twitter" class="redesSociales">
+                <img src="../multimedia/instagram.png" alt="instagram" class="redesSociales">
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOOTSTRAP/JS SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
+        integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- JAVASCRIPT -->
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
