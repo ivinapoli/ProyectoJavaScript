@@ -11,6 +11,10 @@ const fragment = document.createDocumentFragment()
 
 $(document).ready(function () {
     fetchData();
+    if (localStorage.getItem('carrito')) {
+        carrito = JSON.parse(localStorage.getItem('carrito'))
+        asignarCarrito()
+    }
 });
 
 $('#cards').on('click', (e) => {
@@ -93,6 +97,8 @@ const asignarCarrito = () => {
     items.appendChild(fragment);
 
     asignarFooter();
+
+    localStorage.setItem('carrito', JSON.stringify(carrito))
 };
 
 
@@ -164,3 +170,4 @@ const botonAccion = e => {
     let botonConfirmar = document.getElementById("confirmar-compra");
     let botonDesactivado = function() { this.disabled = true; };
     botonConfirmar.addEventListener('click', botonDesactivado , false);
+
